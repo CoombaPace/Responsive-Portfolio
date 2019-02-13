@@ -1,0 +1,416 @@
+
+html {
+  height: 100%;
+}
+
+  .acrossthepage {
+    height: 90px;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  body {
+    background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .name {
+    font-family: 'Georgia', Times, Times 'New Roman', serif;
+    line-height: 60px;   
+    text-align: center;
+    font-size: 37px;
+    padding: 15px;
+    color: white;
+    background: #4aaaa5;
+    width: 215px;
+  }
+
+  header {
+    background: #fff;
+    height: 90px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+  }
+
+  .menubox {
+    position: relative;
+  }
+
+  .menu {
+    position: absolute;
+    right: 190px;
+    display: inline;
+    font-size: 20px;
+    padding: 11px;
+    color: #777777;
+    text-decoration: none;
+    content: " | ";
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+    font-size: 20px;
+  }
+
+  li:not(:first-child):before {
+    content: " | ";
+  }
+
+
+  a {
+    color: #777777;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    background: #eee;
+    height: 180px;
+    margin-bottom: -50px;
+  }
+
+  #full {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 400px;
+    min-height: 100%;
+    margin-bottom: -50px;
+    flex: 1 0 auto;  
+  }
+
+  #fullcontact {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 500px;
+    min-height: 100%;
+    margin-bottom: -50px;
+    flex: 1 0 auto;  
+  }
+
+img {
+  float: left;
+  width: 200px;
+  margin: 10px;
+}
+
+  p {
+    color: #777777;
+    font-size: 20px;
+  }
+
+  
+  #division {
+    background: #dddddd;
+    height: 5px;
+    margin-top: 15px;
+  }
+  
+  .push {
+    height: 50px;
+  }
+
+  .footer {
+    background: #666666;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 52px;
+    color: #777777;
+    margin-top: auto;
+    border-top: solid 5px #4aaaa5;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-size: 18px;
+    color: #777777;
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
+      height: auto;
+      max-width: 640px;
+    }
+  
+    .wrapper {
+      width: 640px;
+    }
+
+    .acrossthepage {
+      width: 640px;
+      margin-bottom: 0px;
+    }
+    
+    li {
+      display: inline;
+      font-size: 20px;
+    }
+  
+    li:not(:first-child):before {
+      content: " | ";
+    }
+
+    img {
+      width: 80%;
+      float: none;
+      padding: 20px;
+      
+    }
+    header {
+      background: #fff;
+      height: 90px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+
+    #full {
+      overflow: auto;
+      clear: both;
+      color: #4aaaa5;
+      font-size: 38px;
+      background: #ffffff;
+      height: 100%;
+      min-height: 100%;
+      flex: 1 0 auto;
+      padding: 40px;
+      margin-bottom: 15px;
+    }  
+
+.name {
+  font-family: 'Georgia', Times, Times 'New Roman', serif;
+  line-height: 60px;   
+  text-align: center;
+  font-size: 37px;
+  padding: 15px;
+  color: white;
+  background: #4aaaa5;
+  width: 610px;
+    }    
+.menu {
+  position: absolute;
+  right: 190px;
+  display: inline;
+  font-size: 20px;
+  padding: 11px;
+  color: #777777;
+  text-decoration: none;
+  content: " | ";
+  text-align: center;
+  background: white;
+  padding: 20px;
+  width: 100%;
+  left: 0px;
+  display: contents;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.footer {
+  width: 640px;
+}
+
+}
+
+
+
+/* Screen Resize to 768. */
+@media screen and (min-width: 641px) and (max-width: 768px) {
+
+  body {
+    background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
+    height: auto;
+    max-width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .acrossthepage {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  li {
+    display: inline;
+    font-size: 20px;
+  }
+
+  li:not(:first-child):before {
+    content: " | ";
+  }
+
+  img {
+    width: 50%;
+    padding: 20px;
+    
+  }
+  header {
+    background: #fff;
+    height: 90px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  #full {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 100%;
+    min-height: 100%;
+    flex: 1 0 auto;
+    padding: 40px;
+    margin-bottom: 15px;
+  }  
+
+.name {
+font-family: 'Georgia', Times, Times 'New Roman', serif;
+line-height: 60px;   
+text-align: center;
+font-size: 37px;
+padding: 15px;
+color: white;
+background: #4aaaa5;
+width: 100%;
+  }    
+.menu {
+position: absolute;
+right: 190px;
+display: inline;
+font-size: 20px;
+padding: 11px;
+color: #777777;
+text-decoration: none;
+content: " | ";
+text-align: center;
+background: white;
+padding: 20px;
+width: 100%;
+left: 0px;
+display: contents;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+.footer {
+width: 100%;
+}
+}
+
+/* Screen Resize to 980. */
+@media screen and (min-width: 769px) and (max-width: 980px) {
+
+  body {
+    background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
+    height: auto;
+    max-width: 100%;
+  }
+
+  .wrapper {
+    width: 980px;
+  }
+
+  li {
+    display: inline;
+    font-size: 20px;
+  }
+
+  li:not(:first-child):before {
+    content: " | ";
+  }
+
+  img {
+    width: 50%;
+    padding: 20px;
+    
+    }
+
+  #full {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 100%;
+    min-height: 100%;
+    flex: 1 0 auto;
+    padding: 40px;
+    margin-bottom: 20px;
+  }  
+
+.container {
+width: 90%;
+margin: 0 auto;
+margin-top: 15px;
+}
+
+.footer {
+width: 1010px;
+}
+
+}  

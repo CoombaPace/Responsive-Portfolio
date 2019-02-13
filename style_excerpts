@@ -1,0 +1,142 @@
+
+
+/* Screen Resize to 768. */
+@media screen and (max-width: 768px) {
+
+  body {
+    background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
+    height: auto;
+    max-width: 768px;
+  }
+
+  .wrapper {
+    width: 768px;
+  }
+
+  .acrossthepage {
+    width: 768px;
+    margin-bottom: 0px;
+  }
+  
+  li {
+    display: inline;
+    font-size: 20px;
+  }
+
+  li:not(:first-child):before {
+    content: " | ";
+  }
+
+  img {
+    width: 50%;
+    padding: 20px;
+    
+  }
+  header {
+    background: #fff;
+    height: 90px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  #full {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 100%;
+    min-height: 100%;
+    flex: 1 0 auto;
+    padding: 40px;
+  }  
+
+.name {
+font-family: 'Georgia', Times, Times 'New Roman', serif;
+line-height: 60px;   
+text-align: center;
+font-size: 37px;
+padding: 15px;
+color: white;
+background: #4aaaa5;
+width: 768px;
+  }    
+.menu {
+position: absolute;
+right: 190px;
+display: inline;
+font-size: 20px;
+padding: 11px;
+color: #777777;
+text-decoration: none;
+content: " | ";
+text-align: center;
+background: white;
+padding: 20px;
+width: 100%;
+left: 0px;
+display: contents;
+}
+
+.container {
+width: 90%;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+.footer {
+width: 768px;
+}
+}
+
+/* Screen Resize to 980. */
+@media screen and (max-width: 980px) {
+
+  body {
+    background-image: url("../images/Alex_Grey-Jewel_Being.jpg");
+    height: auto;
+    max-width: 100%;
+  }
+
+  .wrapper {
+    width: 980px;
+  }
+
+  li {
+    display: inline;
+    font-size: 20px;
+  }
+
+  li:not(:first-child):before {
+    content: " | ";
+  }
+
+  img {
+    width: 50%;
+    padding: 20px;
+    
+    }
+
+  #full {
+    overflow: auto;
+    clear: both;
+    color: #4aaaa5;
+    font-size: 38px;
+    background: #ffffff;
+    height: 100%;
+    min-height: 100%;
+    flex: 1 0 auto;
+    padding: 40px;
+  }  
+
+.container {
+width: 90%;
+margin: 0 auto;
+margin-top: 80px;
+}
+
+.footer {
+width: 1010px;
+}
+
+}
